@@ -1,0 +1,22 @@
+/* .marker:hover,
+.marker:focus,
+.marker:active {
+  color: #0070f3;
+  border-color: #0070f3;
+} */
+
+.markerButton {
+  padding: 0px;
+}
+
+.markerIcon { 
+  position: absolute;
+  top: -24px;
+  left: -24px;
+  transition: all 300ms ; 
+}
+.markerIcon:hover { 
+  color: #FFF !important; 
+  /* -webkit-transform: scale(2); */
+  transform: scale(1.5); 
+}
